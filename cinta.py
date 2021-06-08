@@ -374,6 +374,9 @@ def generate(text):
 					results.append("bajingan")
 					results.append("bangsat")
 					results.append("doraemon")
+					results.append("102030")
+					results.append("786786")
+					results.append("000786")
 	return results
 def log_token():
   os.system('clear')
